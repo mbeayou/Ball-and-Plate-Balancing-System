@@ -1,0 +1,148 @@
+\documentclass[12pt,oneside]{book}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{emptypage}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{geometry}
+\usepackage{ragged2e}
+\usepackage{setspace}
+
+
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.78,0,0.82}
+\definecolor{backcolour}{rgb}{0.94,0.95,0.95}
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+xleftmargin=25pt,
+  backgroundcolor=\color{white},
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{blue},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{orange},
+  basicstyle=\ttfamily\small,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+%"mystyle" code listing set
+\lstset{style=mystyle}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks,
+citecolor=black,
+linkcolor=black,
+urlcolor=black,
+}
+
+\graphicspath{ {Figures/} }
+
+
+\begin{document}
+\frontmatter
+\input{titlepage}
+\newgeometry{left=5cm, right=5cm, top=5cm}
+\chapter*{Dedication}
+{\Large To my father, may Allah have mercy on him, and to my mother, may Allah protect her}
+
+\chapter*{Acknowledgements}
+\begin{center}
+\begin{onehalfspacing}
+
+\vspace*{0.7cm}
+       
+{\large 
+First of all, thanks to Allah for giving me the ability, strength and aptitude to complete this project.
+\vspace*{0.7cm}
+
+I would like to extend my thanks and gratitude to my supervisor \textbf{Dr.Ali Elmelhi}, for his advises, suggestions, patience and encouragement throughout this project.
+\vspace*{0.7cm}
+
+I am deeply and forever obliged to thank my great family for their love, caring, support and encouragement throughout my entire life.
+\vspace*{0.7cm}
+
+Finally, I would like to thank to all the good friends that I have for their support and help, with special appreciation for \textbf{Mahmoud Karah} and \textbf{Salman Ajweeli}. \\
+}
+\end{onehalfspacing}
+\end{center}
+
+\begin{doublespacing}
+\chapter*{Abstract}
+{ \large This study presents an exploration of a real-time ball-on-plate system, encompassing the implementation, modeling, analysis, and control aspects. The primary objectives are to build a physical system, develop a dynamic model, design a PID controller, and compare simulation results with experimental outcomes. The initial phase involves the mechanical and electonical parts of the ball-on-plate system, discussing resistive touchscreen technology for ball position detection,filtering and sending.The modeling stage delves into the development of a dynamic model for the ball-on-plate system. The main parameters that affect the behavior of the system are determined using Euler's langrangian equation. The model is then simplified and linearized.The study analyzes the model, leading to the design and implementation of a PID controller. The manual tuning process is documented, and the resulting controller parameters are established. Challenges encountered during this phase, including unsimilarity between simulation and real-world responses, are discussed.
+A comparative analysis between simulated and experimental outcomes provides valuable insights into the system's performance and the effectiveness of the designed PID controller.  }
+\end{doublespacing}
+
+\restoregeometry
+\chapter*{Outline and objectives}
+{\large 
+\begin{onehalfspacing}
+    
+\section*{Outline}
+The Outline of this Project is structured as follows: 
+\begin{itemize}
+    \item \textbf{Chapter 1} is an introduction contains abrief history of control theory the motivation to select our system, an literature review of previous works and overall project objectives.  
+    \item \textbf{Chapter 2} describes the mechanical and electrical setup of the BPS selected and are used in this project.
+    \item \textbf{Chapter 3} presents the mathematical modeling work, the linearization and simplifcation process, open loop validation and geometrical analysis to the linkage and servomotor in overall system.
+    \item \textbf{Chapter 4} presents the design process of linear controllers including the theory of these controllers. 
+    \item In \textbf{Chapter 5}, simulations and experimental results of each approach that have been raised in are presented then discussed. 
+    \item Conclusions and Future Work of the project are presented in \textbf{Chapter 6}.
+    \end{itemize}
+\end{onehalfspacing}
+\vspace{2cm}
+\section*{Objectives}
+The main objective of the project is to develop a dynamical model for 2-DOF Ball and plate system, study and develop a full mathematical model of the overall system, design PID controller, and finally implement and fabricate a lightweight BPS based on available parts in Libya and build it to test the PID controller actual performance}
+
+
+\tableofcontents
+\listoftables
+\listoffigures
+\mainmatter
+\chapter{Introduction}
+\input{Chapters/introduction}
+
+\chapter{System Setup and implementation}
+\input{Chapters/chapter02}
+
+\chapter{Mathematical Modeling and Linearization}
+\input{Chapters/chapter03}
+
+\chapter{Controller Design Approaches}
+\input{Chapters/chapter04}
+
+\chapter{Results and Discussion}
+\input{Chapters/chapter05}
+
+\chapter{Conclusion and Future Work}
+\input{Chapters/conclusion}
+\begin{singlespace}
+\appendix
+\chapter{ِArduino code}
+\input{Chapters/appendixA}
+\chapter{Simulink Block diagram}
+\input{Chapters/appendixB}
+\chapter{Method of mapping the angles}
+\input{Chapters/appendixC}
+\end{singlespace}
+\bibliographystyle{ieeetr}
+\bibliography{myBib}
+
+\end{document}
