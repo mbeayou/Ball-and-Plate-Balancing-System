@@ -9,7 +9,10 @@ this repository contains:
 * Presentation slides.
 * images, video and other assits.
 
-## 
+## images and overview
+![image](https://github.com/mbeayou/Ball-and-Plate-Balancing-System/blob/main/Assets/photo_2024-01-09_19-22-16.jpg)
+![image](https://github.com/mbeayou/Ball-and-Plate-Balancing-System/blob/main/Assets/photo_2024-01-09_19-22-16.jpg)
+![image](https://github.com/mbeayou/Ball-and-Plate-Balancing-System/blob/main/Documentation/Dissertation/Latex%20files/Figures/chapter02/Arduino_schematic.jpg)
 
 ## Acknowledgments
 First of all, thanks to Allah for giving me the
