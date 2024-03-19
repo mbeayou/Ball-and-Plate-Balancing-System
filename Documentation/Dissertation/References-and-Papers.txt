@@ -1,0 +1,34 @@
+Here I am transcribing all the research papers and scientific theses that I have consulted and reviewed and that are related to my graduation project:
+Researches & Papers:
+https://danielkhashabi.com/files/2011_LinearControl/16.pdf
+https://www.diva-portal.org/smash/get/diva2:953267/FULLTEXT01.pdf
+https://www.researchgate.net/profile/Luiz-Santana-4/publication/357078983_Physical_Modeling_and_Parameters_Identification_of_the_MG995_Servomotor/links/61be15351d88475981fc4f13/Physical-Modeling-and-Parameters-Identification-of-the-MG995-Servomotor.pdf
+https://sci-hub.se/10.1109/ICICIC.2009.113
+https://sci-hub.st/https://ieeexplore.ieee.org/document/5584025
+https://sci-hub.st/https://www.sciencedirect.com/science/article/abs/pii/S0165011403001350
+https://folk.ntnu.no/skoge/prost/proceedings/process-control-slovakia-2017/data/papers/027.pdf
+https://sci-hub.st/https://ieeexplore.ieee.org/abstract/document/1290810
+https://public.websites.umich.edu/~awtar/MS/awtar_craig_2.pdf
+https://sci-hub.st/https://ieeexplore.ieee.org/document/7910965/
+https://sci-hub.st/https://ieeexplore.ieee.org/document/8398374/
+https://komunikacie.uniza.sk/pdfs/csl/2018/01/08.pdf
+https://sci-hub.st/https://ieeexplore.ieee.org/document/8486071
+https://www.sciencedirect.com/science/article/pii/S2405896315024878?ref=pdf_download&fr=RR-2&rr=8325738d6e570d81
+https://sci-hub.st/https://ieeexplore.ieee.org/document/7814965
+https://iopscience.iop.org/article/10.1088/1742-6596/1969/1/012057/pdf
+https://github.com/search?q=ball+and+plate+language%3AMATLAB&type=discussions
+https://sci-hub.st/https://digital-library.theiet.org/content/journals/10.1049/iet-cta.2008.0540
+https://sci-hub.st/https://www.tandfonline.com/doi/abs/10.1080/03772063.2016.1258336
+https://sci-hub.st/https://www.scientific.net/AMR.898.501
+https://sci-hub.st/https://www.sciencedirect.com/science/article/pii/S1474667016403125
+https://folk.ntnu.no/skoge/prost/proceedings/process-control-slovakia-2017/data/papers/021.pdf
+https://sci-hub.st/https://ieeexplore.ieee.org/document/8399060
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7926812/
+Thesis:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8227131/
+https://kth.diva-portal.org/smash/get/diva2:1708590/FULLTEXT01.pdf
+https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=4014&context=theses
+https://www.diva-portal.org/smash/get/diva2:1373784/FULLTEXT01.pdf
+https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=3936&context=theses
+https://web.archive.org/web/20220718144107/https://www.ti.com/lit/an/sbaa155a/sbaa155a.pdf?ts=1658155167427
+https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=4222&context=theses
