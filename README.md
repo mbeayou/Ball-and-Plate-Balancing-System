@@ -1,5 +1,6 @@
 # Ball-and-Plate-Balancing-System
-This is my graduation project done for a Grad Thesis in the Electrical and Electronics Engineering (specialization: Control system), it is about the modleing, design and control of a Ball and Plate Device. This device aims to stabalize a free ball on a plate and to cancel any disturbances that may destabelize the system
+This is my graduation project done for the degree of Bachelor of Science in Electrical and
+Electronic Engineering (specialization: Control system), it is about the modleing, design and control of a Ball and Plate Device. This device aims to stabalize a free ball on a plate and to cancel any disturbances that may destabelize the system, and to compare between the responses of different controllers (PID,MPC,LQR)
 
 ## Repository Structure
 this repository contains:
